@@ -26,3 +26,17 @@ Structs: (like in c) to use a complex data type.
     }
 
 Chptr 6: 
+Arrays: when you want a collection of sth, you can use an array. 
+    2types of arrays in Solidity 
+        -> fixed. ex.: uint[2] fixedArrayl; (declared a fixed array with the lenght of 2 elements);
+        ex.2: string[5] stringArray; (a fixed array that can contain up to 5 strings);
+        -> dynamic. ex.: uint[] dynamicArray; (it doesn't have an indicated lenght so you can keep adding elements and it keeps growing.);
+
+    + You can also create an array of structs like:
+    Person[] people; // this array is dynamic -you can keep adding things-
+
+    you can also declare them public or private;
+    The matter with public arrays, Solidity will (automatically) create a getter method for it.
+
+Chptr 7:
+Function declarations: 
