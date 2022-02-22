@@ -1,0 +1,28 @@
+The following notes are a summary of the side notes in cryptozombies.io tutorial ["Making the zombie factory"] a.k.a: lesson 1.
+
+Chptr 2:
+- Contracts: Solidity is encapsulated in contracts. 
+- Every Solidity source should begin with Pragma and the version of any compiler your going to use.
+
+Chptr 3:
+- State variables are permanently sotred in contracts storage. (is like writing to a DB).
+    ex.: uint aNewVariable = 100; in this case we created a uint and set it equal to 100. 
+-->uint means unsigned integrers.
+
+Chptr 4: 
+- Math Operators: 
+    -->Addition: x + y
+    -->Subtraction: x - y,
+    -->Multiplication: x * y
+    -->Division: x / y
+    -->Modulus / remainder: x % y (for example, 13 % 5 is 3, because if you divide 5 into 13, 3 is the remainder)
+    -->Exponential: x ** y  means => x^y.
+
+Chptr 5: 
+Structs: (like in c) to use a complex data type. 
+    ex.: struct Person{
+        uint age;
+        string name;
+    }
+
+Chptr 6: 
