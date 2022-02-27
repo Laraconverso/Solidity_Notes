@@ -40,3 +40,15 @@ Structs: (like in c) to use a complex data type.
 
 ## Chptr 7:
 Function declarations: 
+
+```S
+function createZombies(parameters){
+    .more code ...
+}
+```
+Function calls:
+
+```S
+createZombie(someparameter);
+```
+    
